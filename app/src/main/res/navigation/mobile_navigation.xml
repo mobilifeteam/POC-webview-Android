@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_deeplink">
+
+    <fragment
+        android:id="@+id/navigation_deeplink"
+        android:name="com.mobilife.poc.webview.ui.webview_deeplink.WebViewWithDeepLinkFragment"
+        android:label="@string/title_webview_deeplink"
+        tools:layout="@layout/fragment_webview_deeplink" />
+
+    <fragment
+        android:id="@+id/navigation_button"
+        android:name="com.mobilife.poc.webview.ui.webview_button.WebViewWithButtonFragment"
+        android:label="@string/title_webview_button"
+        tools:layout="@layout/fragment_webview_button" />
+
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="com.mobilife.poc.webview.ui.payment.PaymentFragment"
+        android:label="@string/title_payment"
+        tools:layout="@layout/fragment_payment" />
+</navigation>

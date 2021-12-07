@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WebViewPOC</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_webview_deeplink">Deep Link</string>
+    <string name="title_webview_button">Button</string>
+    <string name="title_payment">Payment</string>
+
+    <string name="button_make_payment">Make Payment</string>
+
+</resources>
